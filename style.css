@@ -1,0 +1,121 @@
+body {
+  background-color: #262A56;
+}
+
+.headDiv{
+  text-align: center;
+}
+
+.header{
+  display: inline-block;
+  padding-left: 15px;
+  font-family: 'Spartan';
+  color: #E1E1E1;
+}
+
+.city{
+  text-align: center;
+  background-color: #36395E;
+  width: 100%;
+  height: 9%;
+}
+
+.place{
+  display: inline-block;
+  font-family: 'Spartan';
+  font-size: 19;
+  color: #E1E1E1;
+}
+
+.topLine{
+  font-family: 'Spartan';
+  font-size: 12;
+  color: #E1E1E1;
+
+  background-color: #36395E;
+  float: left;
+  height: 39%;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.bottomLine{
+  font-family: 'Spartan';
+  font-size: 14;
+  color: #E1E1E1;
+
+  background-color: #36395E;
+  float: left;
+  height: 37%;
+  margin-top: 15px;
+  padding: 5px;
+  width: 23.2%;
+  height: 35%;
+  border-radius: 5px;
+}
+
+.titles{
+  display: inline-block;
+  position: relative;
+}
+
+.subCurr{
+  font-family: 'Spartan';
+  font-size: 12;
+  color: #E1E1E1;
+  display: inline;
+  padding-left: 7%
+}
+
+.subAvg{
+  font-family: 'Spartan';
+  font-size: 12;
+  color: #E1E1E1;
+  display: inline;
+  padding-left: 20px
+}
+
+hr {
+  border-color: #E1E1E1;
+  border-width: 0.5px;
+  margin-top: -5px;
+}
+
+.zc-ref {
+  display: none;
+}
+
+.graphLine {
+  position: absolute;
+}
+
+#gMaps{
+  width: 40%;
+}
+
+#mainGraph{
+  margin-left: 15px;
+  width: 57%;
+}
+
+#humidity{
+  margin-left: 15px;
+}
+
+#pressure{
+  margin-left: 15px;
+}
+
+#tilt{
+  margin-left: 15px;
+}
+
+#myChart {
+  height:100%;
+  width:100%;
+  min-height:150px;
+}
+.zc-ref {
+  display: none;
+}
